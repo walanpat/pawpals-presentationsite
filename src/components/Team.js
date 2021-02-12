@@ -1,9 +1,15 @@
 import * as React from 'react';
+import { BrowserRouter as Route, Link } from 'react-router-dom';
 
 
 const Team = () => {
-return(
+return(<div>
+  <Link to="/">
+    <p>Home</p>
+    </Link>
+
 <div className="flexWrapper" style={{marginLeft:"2%", marginRight:"2%"}}>
+  
   <div style={{marginRight:"2%"}} >
 <h3>Team Roles</h3>
       <li>Marigrace Seaton: Client Manager, Frontend Engineer</li>
@@ -90,6 +96,7 @@ return(
         </a>
       </p>
       </div>
+</div>
 </div>
 )}
 

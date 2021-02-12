@@ -1,10 +1,12 @@
 import * as React from 'react';
+import { BrowserRouter as Route, Link } from 'react-router-dom';
 
 
 const PawPals = () => {
 return(
 <div>
-    <h1>Paw Palls App</h1>
+    
+    <h1>Paw Pals App</h1>
     <p>This site will showcase the work of Team E in <a href="https://www.cs.unc.edu/~stotts/COMP523-s21/">Comp 523 Software Engineering</a> course at UNC Chapel Hill.</p>
     <p>Team E's Project will be to create Paw Pals, a communication and meeting application for dog related activities.</p>
 </div>

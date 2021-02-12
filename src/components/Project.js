@@ -1,8 +1,12 @@
 import * as React from 'react';
+import { BrowserRouter as Route, Link } from 'react-router-dom';
 
 const Project = () => {
   return (
     <div>
+        <Link to="/">
+    <p>Home</p>
+    </Link>
       <p>
         PawPals is a social media site, but for dog owners. Similar to other
         dating apps, PawPals users create a profile for their pup, and “swipe”

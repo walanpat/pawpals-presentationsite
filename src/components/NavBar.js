@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <div>
       <div className='flexWrapper' style={{ justifyContent: 'space-evenly', alignItems:"center",background:"black" }}>
-        <Link to='/pawpals'>
+        <Link to='/'>
           <h2 className="NavBarText">Paw Pals</h2>
         </Link>
         <Link to='/projects'>
