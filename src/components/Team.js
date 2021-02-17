@@ -4,7 +4,7 @@ import { BrowserRouter as Route, Link } from 'react-router-dom';
 
 const Team = () => {
 return(<div>
-  <Link to="/">
+      <Link to='/home'>
     <p>Home</p>
     </Link>
 
@@ -23,10 +23,10 @@ return(<div>
 
       <li>Casey Turgeon: Backend Developer</li>
       <h3>Contact Info</h3>
-      Team email:{' '}
+      <p>Team email:{' '}
       <a href='mailto: pawpalsdevelopment@gmail.com'>
         pawpalsdevelopment@gmail.com
-      </a>
+      </a></p>
       <p>
         Client: Nash Philbeck:{' '}
         <a href='mailto: hnashp@email.unc.edu'>hnashp@email.unc.edu</a>

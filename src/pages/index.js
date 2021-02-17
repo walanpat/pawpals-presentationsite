@@ -24,20 +24,21 @@ const IndexPage = () => {
         }}
       >
         <h1 style={{marginTop:"5%"}}>Paw Pals</h1>
-        {/* <img
-          src={RandomDog}
-          style={{ width: '40%', height: '40%', }}
-          alt='Dog Photo'
-        ></img> */}
+    
       </div>
       <Router>
         <NavBar />
 
-        <Route path='/' exact component={() => <PawPals />} />
+        <Route path='/home' exact component={() => <PawPals />} />
+
         <Route path='/projects' exact component={() => <Project />} />
+
         <Route path='/team' exact component={() => <Team />} />
+
         <Route path='/journal' exact component={() => <div>Test4</div>} />
+
         <Route path='/deliverables' exact component={() => <div>Test5</div>} />
+        
       </Router>
       <Footer />
     </main>

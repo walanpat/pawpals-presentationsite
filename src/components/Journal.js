@@ -5,7 +5,7 @@ import { BrowserRouter as Route, Link } from 'react-router-dom';
 const Journal = () => {
 return(
 <div>
-<Link to="/">
+<Link to='/home'>
     <p>Home</p>
     </Link>
     
